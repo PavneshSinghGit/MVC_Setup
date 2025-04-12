@@ -1,0 +1,35 @@
+Scaffold-DbContext "Server=DESKTOP-U1K1KM3;Database=LoadSoTestDb;User Id=Pavnesh.s;Password=1234;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+Scaffold-DbContext "server=DESKTOP-U1K1KM3; database=LoadSoTestDb; trusted_connection=true"
+Mircosoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+
+Scaffold-DbContext "Server=DESKTOP-U1K1KM3;Database=LoadSoTestDb;User Id=Pavnesh.s;Password=1234;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+
+
+Scaffold-DbContext "Server=DESKTOP-U1K1KM3\PAVNESHSINGHLMP;Database=TrackItNowDb;User Id=Pavneshlmp;Password=1234;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EntityModels
+
+Final Update Query
+
+Scaffold-DbContext "Server=DESKTOP-U1K1KM3\PAVNESHSINGHLMP;Database=TrackItNowDb;User Id=Pavneshlmp;Password=1234;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EntityModels
+
+
+Scaffold-DbContext "Server=DESKTOP-U1K1KM3\PAVNESHSINGHLMP;Database=TrackItNowDb;User Id=Pavneshlmp;Password=1234;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EntityModels -Tables tblMasterWhatsAppConfiguration -Force
+
+
+
+Scaffold-DbContext "Server=DESKTOP-U1K1KM3\PAVNESHSINGHLMP;Database=TrackItNowDb;User Id=Pavneshlmp;Password=1234;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EntityModals
+
+
+Scaffold-DbContext "Server=DESKTOP-U1K1KM3\\SQLEXPRESS;Database=TrackItNowDb;User Id=Pavneshlmp;Password=1234;Encrypt=False;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EntityModels -Force
+
+Scaffold-DbContext "Data Source=DESKTOP-U1K1KM3\PAVNESHSINGHLMP;Initial Catalog=TrackItNowDb;Persist Security Info=True;User ID=Pavneshlmp;Password=***********;Trust Server Certificate=True" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EntityModals -context TrackItNowDbContext -contextdir Repository -DataAnnotations -Force
+
+
+Scaffold-DbContext "Server=DESKTOP-A3UC018;Database=SwiftMailerDb;User Id=Sonukumar;Password=123456;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Force
+
+
+_________________________________________________________________________
+
+Scaffold-DbContext "Data Source=DESKTOP-U1K1KM3\SQLEXPRESS;Initial Catalog=TrackItNowDb;Persist Security Info=True;User ID=Pavnesh.s;Password=1234;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir EntityModels -Force
